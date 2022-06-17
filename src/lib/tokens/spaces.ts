@@ -1,0 +1,16 @@
+export const spaces = {
+  "--space-0": "0",
+  "--space-1": "2px",
+  "--space-2": "4px",
+  "--space-3": "8px",
+  "--space-4": "12px",
+  "--space-5": "16px",
+  "--space-6": "20px",
+  "--space-7": "24px",
+  "--space-8": "32px",
+  "--space-9": "36px",
+  "--space-10": "48px",
+  "--space-11": "64px",
+  "--space-12": "80px",
+  "--space-13": "160px",
+};
