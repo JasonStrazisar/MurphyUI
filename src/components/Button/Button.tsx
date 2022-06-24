@@ -1,11 +1,23 @@
 import React from "react";
+import { ButtonProps } from "./Button.interface";
+import { StyledButton } from "./Button.styles";
 
-export interface ButtonProps {
-  label: string;
-}
-
-const Button = (props: ButtonProps) => {
-  return <button>{props.label}</button>;
-};
+const Button = ({
+  label,
+  description,
+  size,
+  disabled,
+  onClick,
+  loading,
+}: ButtonProps) => (
+  <StyledButton
+    size={size}
+    disabled={disabled}
+    onClick={onClick}
+    aria-label={description}
+  >
+    {label}
+  </StyledButton>
+);
 
 export default Button;
