@@ -1,8 +1,7 @@
 export const fonts = {
   "-webkit-font-smoothing": "antialiased",
   "--font-serif-fallback": "Georgia, serif",
-  "--font-sans-fallback":
-    "-apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
+  "--font-sans-fallback": "sans-serif",
   "--font-serif": "Source Serif Pro, var(--font-serif-fallback)",
   "--font-sans": "Poppins, var(--font-sans-fallback)",
 };
